@@ -1,15 +1,17 @@
 # The Literally Fantasy Sports Dev Bible
 
-![Screencap from Literally Fantasy Sports 'proof-of-concept'.](lfs.png)
+<p align="center">
+<img src="https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/raw/master/lfs.png" width="50%" alt="Screencap from Literally Fantasy Sports 'proof-of-concept'">
+</p>
 
-This is the hub for all information pertaining to the development of Literally Fantasy Sports
-A very quick, 'proof-of-concept' project can be found [here](https://literallyfantasysports.herokuapp.com).
+
+This is the hub for all information pertaining to the development of Literally Fantasy Sports. A very quick, 'proof-of-concept' project can be found [here](https://literallyfantasysports.herokuapp.com).
 
 </br>
 </br>
 </br>
 
-___
+---
 
 </br>
 </br>
@@ -26,9 +28,9 @@ ___
 </br>
 </br>
 
+---
 [Top](#the-literally-fantasy-sports-dev-bible)
 
-___
 
 </br>
 </br>
@@ -51,54 +53,62 @@ ___
 + [Home/Away Crowd Attendance](#home-away-crowd-attendance)
 + [Ratings Based Tournament/Season Play](#ratings-based-tournament-season-play)
 + [Social (Guild) System / Create-A-League](#social-guild-system-create-a-league)
-+ ![...](ellipsis.gif)
++ ![...](./ellipsis.gif)
 
 ### Future Features List
 
 + [Farm Systems / Multiple Teams](#farm-systems-multiple-teams)
-+ ![...](ellipsis.gif)
++ ![...](./ellipsis.gif)
 
 ### Features In-Depth
 
 ##### Player Trait System
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ##### Player Face System
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ##### Training System
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ##### Trading System
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ##### Home/Away Crowd Attendance
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ##### Ratings Based Tournament/Season Play
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ##### Social (Guild) System / Create-A-League
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ##### Farm Systems / Multiple Teams
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
+
+<!--
+
+##### N_e_w
+
+![...](./ellipsis.gif)
+
+-->
 
 </br>
 </br>
 </br>
 
-[Features Index](#features-index) • [Top](#the-literally-fantasy-sports-dev-bible)
+---
+[Top](#the-literally-fantasy-sports-dev-bible) • [Features Index](#features-index)
 
-___
 
 </br>
 </br>
@@ -111,6 +121,7 @@ ___
 + [User](#user-model)
 + [Team](#team-model)
 + [Player](#player-model)
++ [Tournament](#tournament-model)
 + [League](#league-model)
 
 ### User Model
@@ -165,9 +176,25 @@ has_many :players
 ```ruby
 ```
 
+### Tournament Model
+
++ [Tournament Functions](#tournament-functions)
++ [Tournament Notes](#tournament-notes)
+
+#### Data
+
+| Name | Datatype | Description |
+| ---:|:---:| --- |
+|  |  |  |
+
+####  Relationships
+
+```ruby
+```
+
 ### League Model
 
-+ [League functions](#league-functions)
++ [League Functions](#league-functions)
 + [League Notes](#league-notes)
 
 #### Data
@@ -181,13 +208,33 @@ has_many :players
 ```ruby
 ```
 
+<!--
+
+### N_e_w Model
+
++ [N_e_w Functions](#n_e_w-functions)
++ [N_e_w Notes](#n_e_w-notes)
+
+#### Data
+
+| Name | Datatype | Description |
+| ---:|:---:| --- |
+|  |  |  |
+
+####  Relationships
+
+```ruby
+```
+
+-->
+
 </br>
 </br>
 </br>
 
-[Models Index](#models-index) • [Top](#the-literally-fantasy-sports-dev-bible)
+---
+[Top](#the-literally-fantasy-sports-dev-bible) • [Models Index](#models-index)
 
-___
 
 </br>
 </br>
@@ -201,6 +248,7 @@ ___
 + [User](#user-functions)
 + [Team](#team-functions)
 + [Player](#player-functions)
++ [Tournament](#tournament-functions)
 + [League](#league-functions)
 
 ### User Functions
@@ -215,7 +263,7 @@ User can...
 
 User can...
 
-+ Create Team <sup>[&dagger;<sup>1</sup>](#team-notes)</sup>
++ Create Team <sup>[1](#team-notes)</sup>
 + Rename Team
 + Dissolve Team
 
@@ -223,21 +271,37 @@ User can...
 
 User can...
 
-+ <sub>[ INCOMPLETE ]</sub>
++ ![...](./ellipsis.gif)
+
+### Tournament Functions
+
+User can...
+
++ ![...](./ellipsis.gif)
 
 ### League Functions
 
 User can...
 
-+ <sub>[ INCOMPLETE ]</sub>
++ ![...](./ellipsis.gif)
+
+<!--
+
+### N_e_w Functions
+
+User can...
+
++ ![...](./ellipsis.gif)
+
+-->
 
 </br>
 </br>
 </br>
 
-[Functions Index](#functions-index) • [Top](#the-literally-fantasy-sports-dev-bible)
+---
+[Top](#the-literally-fantasy-sports-dev-bible) • [Functions Index](#functions-index)
 
-___
 
 </br>
 </br>
@@ -250,32 +314,57 @@ ___
 + [User](#user-notes)
 + [Team](#team-notes)
 + [Player](#player-notes)
++ [Tournament](#tournament-notes)
 + [League](#league-notes)
 
 
 ### User Notes
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
 
 ### Team Notes
 
-<sup>1</sup> One future feature will be that users of sufficient income or notoriety will be able to control multiple teams, creating a farm system for their dynasty.
+<sup>1</sup> One future feature will be that users of sufficient income or notoriety will be able to control multiple teams, creating a farm system<sup>[↑](#farm-systems-multiple-teams)</sup> for their dynasty.
 
 ### Player Notes
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
+
+### Tournament Notes
+
+![...](./ellipsis.gif)
 
 ### League Notes
 
-![...](ellipsis.gif)
+![...](./ellipsis.gif)
+
+<!--
+
+### N_e_w Notes
+
+![...](./ellipsis.gif)
+
+ -->
+
+<!--
+
+<sup>[1](#s_u_b_j_e_c_t-notes)</sup> 
+
+-->
+
+<!--
+
+<sup>[↑](#s_u_b_j_e_c_t)</sup> 
+
+-->
 
 </br>
 </br>
 </br>
 
-[Notes Index](#notes-index) • [Top](#the-literally-fantasy-sports-dev-bible)
+---
+[Top](#the-literally-fantasy-sports-dev-bible) • [Notes Index](#notes-index)
 
-___
 
 </br>
 </br>
