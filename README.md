@@ -72,7 +72,7 @@ Each player will have the potential to unlock a set number of abilities that may
 
 ##### Player Personality System
 
-A multitude of personalities will run rampant through the leagues, from hard-working to natural talent, brooders and emotions that shoot over the moon. Users will have to manage different personalities within their squad.
+A multitude of personalities will run rampant through the leagues, from hard-working to natural talent, brooders and emotions that shoot over the moon after a big win. Users will have to manage different personalities within their squad.
 
 ##### Player Personality System
 
@@ -84,23 +84,23 @@ Every player will have a unique face with millions of possible combinations of a
 
 ##### Squad Heatmap System
 
-![...](./resources/ellipsis.gif)
+Users will be able to see where their strengths and weaknesses are on the field along with their opponent's. This will allow users to make quick adjustments to their squad to combat another team's strengths or to cover their weaknesses without having to dive deep into numbers. The squad heatmap system aims to create a new way of looking at the game of football.
 
 ##### Training System
 
-![...](./resources/ellipsis.gif)
+Users will eventually have a plethora of training options for their players. From individualised sessions to group training, users will have the opportunity to customize their training so they can mold the team of their dreams.
 
 ##### Trading System
 
-![...](./resources/ellipsis.gif)
+What sort of fantasy league simulator would this be if you could not trade your players away? Better yet, you can bring in some expensive, shiny, young talent to liven up your squad! Trading will allow different types of playstyles for all users, giving users the option to buy their talent rather than groom it themselves.
 
 ##### Home/Away Crowd Attendance
 
-![...](./resources/ellipsis.gif)
+Home field advantage is definitely a thing but so is the support of your travelling fans. Grow your reputation to encourage more fans to follow your team on the road, schedule busses to shuttle them along with the team, or outright ban away supporters' sections in your own stadium. The choice will be yours, but remember that everything has a consequence!
 
 ##### Ratings Based Tournament/Season Play
 
-![...](./resources/ellipsis.gif)
+Each team will have a rating (elo-esque) that will help match them against evenly matched opponents for regularly scheduled tournaments. This is the base of the game itself and the games that teams MUST play.
 
 ##### Social (Guild) System / Create-A-League
 
@@ -159,7 +159,7 @@ Two types of leagues may become available for creation. The first being a democr
 | ---:|:---:| --- |
 | email | string | Used for logging in |
 | password | string | Used for logging in |
-| manager_name | string | Used to address the user in-game and displayed on profile page |
+| name | string | Used to address the user in-game and displayed on profile page |
 
 ####  Relationships
 
@@ -179,7 +179,8 @@ has_many :leagues, through: :teams
 
 | Name | Datatype | Description |
 | ---:|:---:| --- |
-| team_name | string | The name of team. Used on team profile page and leaderboards |
+| name | string | The name of team. Used on team profile page and leaderboards |
+| name_abbr | string | Abbreviation of the team's name |
 
 ####  Relationships
 
@@ -199,7 +200,10 @@ has_one :tournament
 
 | Name | Datatype | Description |
 | ---:|:---:| --- |
-|  |  |  |
+| name_first | string | Player's first name |
+| name_last | string | Player's last name |
+| age | integer | Player's age as a whole number |
+| age_progress | float | Player's progress towards incrementing age |
 
 ####  Relationships
 
@@ -219,7 +223,7 @@ has_one :league, through: :team
 
 | Name | Datatype | Description |
 | ---:|:---:| --- |
-|  |  |  |
+| name | string | Name of the Tournament |
 
 ####  Relationships
 
@@ -238,7 +242,9 @@ has_many :users, through: :teams
 
 | Name | Datatype | Description |
 | ---:|:---:| --- |
-|  |  |  |
+| name | string | Name of the league |
+| founded | integer | Year the league was founded |
+
 
 ####  Relationships
 
