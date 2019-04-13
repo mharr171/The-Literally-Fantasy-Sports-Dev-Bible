@@ -46,27 +46,43 @@ This is the hub for all information pertaining to the development of Literally F
 
 ### Pre-Alpha Features List
 
-+ [Player Trait System](#player-trait-system)
++ [Player Ability System](#player-trait-system)
++ [Player Personality System](#player-personality-system)
++ [Player Chemistry System](#player-chemistry-system)
 + [Player Face System](#player-face-system)
++ [Squad Heatmap System](#squad-heatmap-system)
 + [Training System](#training-system)
 + [Trading System](#trading-system)
-+ [Home/Away Crowd Attendance](#home-away-crowd-attendance)
-+ [Ratings Based Tournament/Season Play](#ratings-based-tournament-season-play)
-+ [Social (Guild) System / Create-A-League](#social-guild-system-create-a-league)
++ [Home/Away Crowd Attendance](#homeaway-crowd-attendance)
++ [Ratings Based Tournament/Season Play](#ratings-based-tournamentseason-play)
++ [Social (Guild) System / Create-A-League](#social-guild-system--create-a-league)
 + ![...](./ellipsis.gif)
 
 ### Future Features List
 
-+ [Farm Systems / Multiple Teams](#farm-systems-multiple-teams)
++ [Farm Systems / Multiple Teams](#farm-systems--multiple-teams)
++ [Various League Types](#various-league-types)
 + ![...](./ellipsis.gif)
 
 ### Features In-Depth
 
-##### Player Trait System
+##### Player Ability System
 
-![...](./ellipsis.gif)
+Each player will have the potential to unlock a set number of abilities that may correlate with either their personalities, position, or playstyle.
+
+##### Player Personality System
+
+A multitude of personalities will run rampant through the leagues, from hard-working to natural talent, brooders and emotions that shoot over the moon. Users will have to manage different personalities within their squad.
+
+##### Player Personality System
+
+The more players have time to practice and play together, the better their performance on the pitch will be. Some players will gel together quickly while others may take more time.
 
 ##### Player Face System
+
+Every player will have a unique face with millions of possible combinations of available facial features, allowing every player to make a lasting impact.
+
+##### Squad Heatmap System
 
 ![...](./ellipsis.gif)
 
@@ -88,11 +104,19 @@ This is the hub for all information pertaining to the development of Literally F
 
 ##### Social (Guild) System / Create-A-League
 
-![...](./ellipsis.gif)
+Create a league with friends (or strangers) to get more regular playing time for your squad and win big prizes. From a single-owner league to democratic leagues with rule-changing votes, you'll have more matches on your schedule than you can handle! The social system gives you opportunities to play the same teams and compete against eachother over longer periods of time.<sup>[Various League Types](#various-league-types)</sup>
+
 
 ##### Farm Systems / Multiple Teams
 
-![...](./ellipsis.gif)
+Once you've proven you can be successful, you will have the opportunity to open up a second team to play in divisions below your top squad meaning more players, more games, more money.
+
+
+##### Various League Types
+
+Two types of leagues may become available for creation. The first being a democratic league with rules that are voted on periodically by teams who have ownership in the league. The second would be a league started and owned by a single player with rules set only by them. <sup>1∵</sup>
+
+<sup>1∵</sup> Motorsport Manager
 
 <!--
 
@@ -141,7 +165,9 @@ This is the hub for all information pertaining to the development of Literally F
 
 ```ruby
 has_many :teams
-has_many :players
+has_many :players, through: :teams
+has_many :tournaments, through: :teams
+has_many :leagues, through: :teams
 ```
 
 ### Team Model
@@ -158,6 +184,10 @@ has_many :players
 ####  Relationships
 
 ```ruby
+has_one :user
+has_many :players
+has_one :league
+has_one :tournament
 ```
 
 ### Player Model
@@ -174,6 +204,10 @@ has_many :players
 ####  Relationships
 
 ```ruby
+has_one :team
+has_one :user, through: :team
+has_one :tournament, through: :team
+has_one :league, through: :team
 ```
 
 ### Tournament Model
@@ -190,6 +224,9 @@ has_many :players
 ####  Relationships
 
 ```ruby
+has_many :teams
+has_many :players, through: :teams
+has_many :users, through: :teams
 ```
 
 ### League Model
@@ -206,6 +243,9 @@ has_many :players
 ####  Relationships
 
 ```ruby
+has_many :teams
+has_many :players, through: :teams
+has_many :users, through: :teams
 ```
 
 <!--
@@ -263,27 +303,36 @@ User can...
 
 User can...
 
-+ Create Team <sup>[1](#team-notes)</sup>
-+ Rename Team
-+ Dissolve Team
++ Create a Team <sup>[1](#team-notes)</sup>
++ Rename a Team
++ Dissolve a Team
 
 ### Player Functions
 
 User can...
 
-+ ![...](./ellipsis.gif)
++ Scout for New Players
++ Train a Player
++ Heal a Player
++ Trade a Player
++ Sell a Player
 
 ### Tournament Functions
 
 User can...
 
-+ ![...](./ellipsis.gif)
++ Opt Into a Tournament
++ Opt Out of a Tournament
 
 ### League Functions
 
 User can...
 
-+ ![...](./ellipsis.gif)
++ Create a League
++ Rename a League
++ Dissolve a League
++ Join a League
++ Leave a League
 
 <!--
 
@@ -324,7 +373,7 @@ User can...
 
 ### Team Notes
 
-<sup>1</sup> One future feature will be that users of sufficient income or notoriety will be able to control multiple teams, creating a farm system<sup>[↑](#farm-systems-multiple-teams)</sup> for their dynasty.
+<sup>1</sup> One future feature will be that users of sufficient income or notoriety will be able to control multiple teams, creating a farm system<sup>[↑](#farm-systems--multiple-teams)</sup> for their dynasty.
 
 ### Player Notes
 
