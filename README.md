@@ -1,7 +1,7 @@
 # The Literally Fantasy Sports Dev Bible
 
 <p align="center">
-<img src="https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/raw/master/lfs.png" width="50%" alt="Screencap from Literally Fantasy Sports 'proof-of-concept'">
+<img src="https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/raw/master/resources/lfs.png" width="50%" alt="Screencap from Literally Fantasy Sports 'proof-of-concept'">
 </p>
 
 
@@ -56,13 +56,13 @@ This is the hub for all information pertaining to the development of Literally F
 + [Home/Away Crowd Attendance](#homeaway-crowd-attendance)
 + [Ratings Based Tournament/Season Play](#ratings-based-tournamentseason-play)
 + [Social (Guild) System / Create-A-League](#social-guild-system--create-a-league)
-+ ![...](./ellipsis.gif)
++ ![...](./resources/ellipsis.gif)
 
 ### Future Features List
 
 + [Farm Systems / Multiple Teams](#farm-systems--multiple-teams)
 + [Various League Types](#various-league-types)
-+ ![...](./ellipsis.gif)
++ ![...](./resources/ellipsis.gif)
 
 ### Features In-Depth
 
@@ -84,23 +84,23 @@ Every player will have a unique face with millions of possible combinations of a
 
 ##### Squad Heatmap System
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ##### Training System
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ##### Trading System
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ##### Home/Away Crowd Attendance
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ##### Ratings Based Tournament/Season Play
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ##### Social (Guild) System / Create-A-League
 
@@ -122,7 +122,7 @@ Two types of leagues may become available for creation. The first being a democr
 
 ##### N_e_w
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 -->
 
@@ -340,7 +340,7 @@ User can...
 
 User can...
 
-+ ![...](./ellipsis.gif)
++ ![...](./resources/ellipsis.gif)
 
 -->
 
@@ -369,7 +369,7 @@ User can...
 
 ### User Notes
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ### Team Notes
 
@@ -377,21 +377,21 @@ User can...
 
 ### Player Notes
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ### Tournament Notes
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 ### League Notes
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
 <!--
 
 ### N_e_w Notes
 
-![...](./ellipsis.gif)
+![...](./resources/ellipsis.gif)
 
  -->
 
