@@ -1,5 +1,5 @@
-[The Literally Fantasy Sports Dev
-Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
+[The Literally Fantasy Sports Dev Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
+
 # Features
 
 ## Index
@@ -10,7 +10,7 @@ Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
 
 ## Pre-Alpha Features List
 
-+ [Player Ability System](#player-trait-system)
++ [Player Skill System](#player-skill-system)
 + [Player Personality System](#player-personality-system)
 + [Player Chemistry System](#player-chemistry-system)
 + [Player Face System](#player-face-system)
@@ -30,7 +30,7 @@ Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
 
 ## Features Explained
 
-### Player Ability System
+### Player Skill System
 
 Each player will have the potential to unlock a set number of abilities that may correlate with either their personalities, position, or playstyle.
 
@@ -38,7 +38,7 @@ Each player will have the potential to unlock a set number of abilities that may
 
 A multitude of personalities will run rampant through the leagues, from hard-working to natural talent, brooders and emotions that shoot over the moon after a big win. Users will have to manage different personalities within their squad.
 
-### Player Personality System
+### Player Chemistry System
 
 The more players have time to practice and play together, the better their performance on the pitch will be. Some players will gel together quickly while others may take more time.
 
@@ -78,6 +78,6 @@ Once you've proven you can be successful, you will have the opportunity to open 
 
 ### Various League Types
 
-Two types of leagues may become available for creation. The first being a democratic league with rules that are voted on periodically by teams who have ownership in the league. The second would be a league started and owned by a single player with rules set only by them. <sup>1∵</sup>
+Two types of leagues may become available for creation. The first being a democratic league with rules that are voted on periodically by teams who have ownership in the league. The second would be a league started and owned by a single player with rules set only by them. <sup>∵</sup>
 
-<sup>1∵</sup> Motorsport Manager
+<sup>∵</sup> Motorsport Manager

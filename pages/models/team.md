@@ -1,5 +1,4 @@
-[The Literally Fantasy Sports Dev
-Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
+[The Literally Fantasy Sports Dev Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
 
 # Team Model
 
@@ -29,6 +28,4 @@ User can...
 
 ## Notes
 
-<sup>1</sup> One future feature will be that users of sufficient income or
-notoriety will be able to control multiple teams, creating a farm
-system<sup>[*](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/features.md#farm-systems--multiple-teams)</sup> for their dynasty.
+<sup>1</sup> One future feature will be that users of sufficient income or notoriety will be able to control multiple teams, creating a farm system<sup>[*](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/features.md#farm-systems--multiple-teams)</sup> for their dynasty.

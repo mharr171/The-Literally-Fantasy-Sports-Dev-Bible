@@ -1,5 +1,4 @@
-[The Literally Fantasy Sports Dev
-Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
+[The Literally Fantasy Sports Dev Bible](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible)
 
 # League Model
 
