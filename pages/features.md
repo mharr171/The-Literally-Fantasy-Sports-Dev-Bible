@@ -34,6 +34,8 @@
 
 Each player will have the potential to unlock a set number of abilities that may correlate with either their personalities, position, or playstyle.
 
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#player-skills) / [Match Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/match_engine.md#player-skills)</sub>
+
 ### Player Personality System
 
 A multitude of personalities will run rampant through the leagues, from hard-working to natural talent, brooders and emotions that shoot over the moon after a big win. Users will have to manage different personalities within their squad.
@@ -41,6 +43,8 @@ A multitude of personalities will run rampant through the leagues, from hard-wor
 ### Player Chemistry System
 
 The more players have time to practice and play together, the better their performance on the pitch will be. Some players will gel together quickly while others may take more time.
+
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#player-chemistry) / [Match Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/match_engine.md#player-chemistry)</sub>
 
 ### Player Face System
 
@@ -50,9 +54,13 @@ Every player will have a unique face with millions of possible combinations of a
 
 Users will be able to see where their strengths and weaknesses are on the field along with their opponent's. This will allow users to make quick adjustments to their squad to combat another team's strengths or to cover their weaknesses without having to dive deep into numbers. The squad heatmap system aims to create a new way of looking at the game of football.
 
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#heatmaps) / [Match Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/match_engine.md#heatmaps)</sub>
+
 ### Training System
 
 Users will eventually have a plethora of training options for their players. From individualised sessions to group training, users will have the opportunity to customize their training so they can mold the team of their dreams.
+
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#training-system)</sub>
 
 ### Trading System
 
@@ -61,6 +69,8 @@ What sort of fantasy league simulator would this be if you could not trade your 
 ### Home/Away Crowd Attendance
 
 Home field advantage is definitely a thing but so is the support of your travelling fans. Grow your reputation to encourage more fans to follow your team on the road, schedule busses to shuttle them along with the team, or outright ban away supporters' sections in your own stadium. The choice will be yours, but remember that everything has a consequence!
+
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#homeaway-crowd-attendance) / [Match Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/match_engine.md#homeaway-crowd-attendance)</sub>
 
 ### Ratings Based Tournament/Season Play
 
