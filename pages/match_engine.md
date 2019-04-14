@@ -51,14 +51,22 @@ Possible Proc Times
 + skills that have odds to proc during defending phase to boost chances to force turnover
 + skills that have odds to proc during any of the three aforementioned phases that specifically counter another skill
 
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#player-skills)</sub>
+
 ## Player Chemistry
 
 ![...](../resources/ellipsis.gif)
+
+<sub>[Match Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#player-chemistry)</sub>
 
 ## Heatmaps
 
 ![...](../resources/ellipsis.gif)
 
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#heatmaps)</sub>
+
 ## Home/Away Crowd Attendance
 
 ![...](../resources/ellipsis.gif)
+
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#homeaway-crowd-attendance)</sub>
