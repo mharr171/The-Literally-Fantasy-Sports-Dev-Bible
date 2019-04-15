@@ -4,6 +4,7 @@
 
 ## Index
 
++ [User Stories](#user-stories)
 + [Field Positions](#field-positions)
 + [Player Skills](#player-skills)
 + [Player Chemistry](#player-chemistry)
@@ -11,6 +12,13 @@
 + [Training System](#training-system)
 + [Reputation System](#reputation-system)
 + [Home/Away Crowd Attendance](#homeaway-crowd-attendance)
+
+## User Stories
+
+| As a... | I want... | Difficulty |
+| ---:| --- |:---:|
+| User |  | 0 |
+| Admin |  | 0 |
 
 ## Field Positions
 

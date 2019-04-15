@@ -4,6 +4,7 @@
 
 ## Index
 
++ [User Stories](#user-stories)
 + [Match Walkthrough](#match-walkthrough)
 + [Player Positions](#player-positions)
 + [Player Roles](#player-roles)
@@ -11,6 +12,13 @@
 + [Player Chemistry](#player-chemistry)
 + [Heatmaps](#heatmaps)
 + [Home/Away Crowd Attendance](#homeaway-crowd-attendance)
+
+## User Stories
+
+| As a... | I want... | Difficulty |
+| ---:| --- |:---:|
+| User |  | 0 |
+| Admin |  | 0 |
 
 ## Match Walkthrough
 
