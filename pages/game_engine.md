@@ -81,7 +81,7 @@ In the future, users will be able to train specifically targeted traits or skill
 
 ### Pre-Alpha
 
-Users, teams, and players will all have a reputation to uphold that will affect how fans view them and how far their fans are willing to go for their team. Winning games is the best way to build your reputation and gain more fans.
+Basic reputation system that affects crowd attendance.
 
 ### Future
 

@@ -17,15 +17,17 @@
 + [Team Heatmap System](#team-heatmap-system)
 + [Training System](#training-system)
 + [Trading System](#trading-system)
-+ [Home/Away Crowd Attendance](#homeaway-crowd-attendance)
++ [Mail System](#mail-system)
++ [Reputation System](#reputation-system)
 + [Ratings Based Tournament/Season Play](#ratings-based-tournamentseason-play)
-+ [Social (Guild) System / Create-A-League](#social-guild-system--create-a-league)
 + ![...](../resources/ellipsis.gif)
 
 ## Future Features List
 
 + [Farm Systems / Multiple Teams](#farm-systems--multiple-teams)
 + [Various League Types](#various-league-types)
++ [Home/Away Crowd Attendance](#homeaway-crowd-attendance)
++ [Social (Guild) System / Create-A-League](#social-guild-system--create-a-league)
 + ![...](../resources/ellipsis.gif)
 
 ## Features Explained
@@ -65,6 +67,16 @@ Users will eventually have a plethora of training options for their players. Fro
 ### Trading System
 
 What sort of fantasy league simulator would this be if you could not trade your players away? Better yet, you can bring in some expensive, shiny, young talent to liven up your squad! Trading will allow different types of playstyles for all users, giving users the option to buy their talent rather than groom it themselves.
+
+### Mail System
+
+A basic inbox and messaging interface for both notification and communication between users.
+
+### Reputation System
+
+Users, teams, and players will all have a reputation to uphold that will affect how fans view them and how far their fans are willing to go for their team. Winning games is the best way to build your reputation and gain more fans.
+
+<sub>[Game Engine](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/game_engine.md#reputation-system)</sub>
 
 ### Home/Away Crowd Attendance
 
