@@ -24,8 +24,10 @@ User stories related to the application but not particularly with the game or ma
 
 | As a... | I want... | Difficulty |
 | ---:| --- |:---:|
-| User |  | 0 |
-| Admin |  | 0 |
+| User | to **sign up** | ? |
+| User | to **sign in** | ? |
+| User | to **recover my password** | ? |
+| Admin | to freely **sign in** | ? |
 
 ## Wireframes
 

@@ -17,8 +17,17 @@
 
 | As a... | I want... | Difficulty |
 | ---:| --- |:---:|
-| User |  | 0 |
-| Admin |  | 0 |
+| User | to **add players to team** from a pool of available players | ? |
+| User | to **train** my entire **team** | ? |
+| User | to **train** an individual **player** | ? |
+| User | to **pick** my **squad**, starting XI + subs | ? |
+| User | to **view** all of my available players on my **team** | ? |
+| User | to **view** an individual **player** | ? |
+| User | to **view** my **squad tactics** (positions/chemistry/etc) | ? |
+| User | frequently accessed **team information** posted **on main screen** | ? |
+| User | to **view** other **player's profiles and team pages** | ? |
+| Admin | to freely **edit teams** | ? |
+| Admin | to freely **edit players** | ? |
 
 ## Field Positions
 

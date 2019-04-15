@@ -17,8 +17,7 @@
 
 | As a... | I want... | Difficulty |
 | ---:| --- |:---:|
-| User |  | 0 |
-| Admin |  | 0 |
+| User | to **view** all **match reports** | ? |
 
 ## Match Walkthrough
 
