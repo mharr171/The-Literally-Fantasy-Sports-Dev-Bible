@@ -4,7 +4,6 @@
 
 ## Index
 
-+ [User Stories](#user-stories)
 + [Match Walkthrough](#match-walkthrough)
 + [Player Positions](#player-positions)
 + [Player Roles](#player-roles)
@@ -13,36 +12,35 @@
 + [Heatmaps](#heatmaps)
 + [Home/Away Crowd Attendance](#homeaway-crowd-attendance)
 
-## User Stories
-
-| As a... | I want... | Difficulty |
-| ---:| --- |:---:|
-| User | to **view** all **match reports** | ? |
-
 ## Match Walkthrough
 
 ### Front
 
-+ Each team submits a roster with 11 active players and up to X possible subs
++ Each team submits a roster with 11 active players and up to 4 possible subs 
 + Users can set up auto-subs for each active player in case of injury
 + Max one injury per side per match
 + No subs outside of injury
 + Matches are 90 minutes plus stoppage time
 + Each minute consists of TWO ticks
 + Each tick an event may occur
-+ A [Match Report](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/models/match_report.md) is generated with the results and displayed for the user is generated with the results and displayed for the user
++ A [Match Report](https://github.com/mharr171/The-Literally-Fantasy-Sports-Dev-Bible/blob/master/pages/models/match_report.md) is generated with the results and displayed for the user.
 
 ### Back
 
-![...](../resources/ellipsis.gif)
+#### Subs
+4 Subs — 1 FW 1 MD 1 DF 1GK
+Any subs will have their footedness and side-to-side playability adjusted to make subbing easier. This means that no 'defender' would be inadequate to sub for any other 'defender' just because of their footedness or because they play on the left instead of the right.
 
 ## Player Positions
 
 |   | Positions |
 |:---:| --- |
 | ST | Striker |
+| AM | Attacking Midfielder |
 | M | Midfielder |
+| DM | Defensive Midfielder |
 | D | Defender |
+| SW | Sweeper |
 | GK | Goalkeeper |
 
 ## Player Roles

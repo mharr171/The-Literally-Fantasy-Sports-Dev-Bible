@@ -5,6 +5,7 @@
 ## Index
 
 + [User Stories](#user-stories)
++ [God Box](#god-box)
 + [Field Positions](#field-positions)
 + [Player Skills](#player-skills)
 + [Player Chemistry](#player-chemistry)
@@ -25,9 +26,15 @@
 | User | to **view** an individual **player** | ? |
 | User | to **view** my **squad tactics** (positions/chemistry/etc) | ? |
 | User | frequently accessed **team information** posted **on main screen** | ? |
+| User | to **view** all **match reports** | ? |
 | User | to **view** other **player's profiles and team pages** | ? |
 | Admin | to freely **edit teams** | ? |
 | Admin | to freely **edit players** | ? |
+| Admin | to **edit** the frequency of tournaments | ? |
+
+## God Box
+
+The God Box will be responsible for holding settings for running both the game and match engines. Here, admins will be able to adjust things like the frequency of tournaments, how quickly reputation grows/wanes, or global rates for skill progressions.
 
 ## Field Positions
 

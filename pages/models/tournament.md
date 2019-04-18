@@ -5,24 +5,45 @@
 ## Data
 
 | Name | Datatype | Description |
-| ---:|:---:| --- |
+|:--- |:---:| --- |
 | name | string | Name of the Tournament |
 
 ##  Relationships
 
-```ruby
+<!-- ```ruby
+has_one :god_box
 has_many :teams
 has_many :players, through: :teams
 has_many :users, through: :teams
-```
+``` -->
 
 ## Functions
 
 User can...
 
-+ Opt Into a Tournament
-+ Opt Out of a Tournament
++ Opt Into Future Tournaments
++ Opt Out of Future Tournaments
 
 ## Notes
 
-![...](../../resources/ellipsis.gif)
+**Possible Tournament Styles**
++ [Single Elimination](#single_elimination)
++ [Double Elimination](#double_elimination)
+
+### Single Elimination
+
+| # of Teams | # of Games |
+|:---:|:---:|
+| 4 | 3 |
+| 8 | 7 |
+| 16 | 15 |
+| 32 | 31 |
+ 
+### Double Elimination
+
+| # of Teams | # of Games |
+|:---:|:---:|
+| 4 | 6-7 |
+| 8 | 1-15 |
+| 16 | 30-31 |
+| 32 | 62-63 |
